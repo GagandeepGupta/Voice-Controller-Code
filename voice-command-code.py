@@ -45,6 +45,7 @@ def takecommand( ):
             query = None
             if query == None:
                 speak('sorry i can not find any task!! thakyou,goodday')
+                print("its invalid you can't ")
         return query
         
        
